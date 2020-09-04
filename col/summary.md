@@ -42,13 +42,22 @@ In what I think is the most natural
 grouping, there are only three
 sub-groups in the col runes.
 
-First, some make fixed tuples:
+This grouping is of:
+1. Runes that make fixed tuples
+2. Those that make n-ary list or tuples
+3. The comment rune
+
+## 1. Fixed Tuple Runes
+
+Some runes make fixed tuples:
 `:-` makes a 2-tuple
 `:_` makes a 2-tuples reversed
 `:+` makes a 3-tuple
 `:^` makes a 4-tuple
 
-Second, some make arbitrary tuples or lists:
+## 2. N-ary Runes
+
+Some make arbitrary tuples or lists:
 `:*` makes a n-tuple
 `:~` makes a ~ terminated list of N elements
 
@@ -75,6 +84,8 @@ To make an n-tuple:
   4
 ==
 ```
+
+### 3. Comment Runes
 
 The third "kind" of rune has just
 one member, the comment rune:
