@@ -3,9 +3,7 @@
 
 "Col" runes are those that start with `:`.
 
-Generally, they take some number of expressions
-and return the results of these expressions
-wrapped in cells, tuples, and lists.
+Generally, they take some number of expressions and return the results of these expressions wrapped in cells, tuples, and lists.
 
 Cells are pairs / 2-tuples like:
 [1 12]
@@ -15,8 +13,7 @@ Tuples are 2-tuples, 3-tuples, etc, like:
 [1 [2 3]]
 [1 [2 [3 4]]
 
-Note how all tuples are made of nested
-cells.
+Note how all tuples are made of nested cells.
 
 Lists are null-terminated N-tuples like:
 [1 [2 ~]]
@@ -24,8 +21,7 @@ Lists are null-terminated N-tuples like:
 
 The most basic col rune is colhep.
 
-Colhep, or `:-` makes a 2-tuple from the
-two expressions which follow it:
+Colhep, or `:-` makes a 2-tuple from the two expressions which follow it:
 ```
     :-  1  2
 ```
@@ -38,9 +34,7 @@ Colhep has many irregular forms.
 `~[1 2]` expands to `[1 2 ~]`
 `1/2`  expands to `[%1 2]`
 
-In what I think is the most natural
-grouping, there are only three
-sub-groups in the col runes.
+In what I think is the most natural grouping, there are only three sub-groups in the col runes.
 
 This grouping is of:
 1. Runes that make fixed tuples
@@ -61,9 +55,7 @@ Some make arbitrary tuples or lists:
 `:*` makes a n-tuple
 `:~` makes a ~ terminated list of N elements
 
-These are termianted by the `==` rune,
-and work in a pretty self-explanatory
-way.
+These are terminated by the `==` rune, and work in a pretty self-explanatory way.
 
 To make a null-terminated list:
 ```
@@ -87,10 +79,8 @@ To make an n-tuple:
 
 ### 3. Comment Runes
 
-The third "kind" of rune has just
-one member, the comment rune:
+The third "kind" of rune has just one member, the comment rune:
 `::` Precedes comments
 
-This makes hoon ignore all characters
-following it on a given line.
+This makes hoon ignore all characters following it on a given line.
 
