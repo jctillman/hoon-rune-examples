@@ -6,10 +6,12 @@
 :: them in a cell with their
 :: order swapped.
 ::
-:: Example 1:
+:: Example 2:
 :: A naked generator that
-:: takes a cell and swaps
-:: head and tail
+:: takes a list of @uds, and
+:: returns a cell of
+:: [original-list sum]
 ::
-|=  [a=* b=*]
-:_  a  b
+|=  uds=(list @ud)
+:_  uds
+(roll uds add)

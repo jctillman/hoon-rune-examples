@@ -1,10 +1,11 @@
 ::
-:: "collus"  :+
+:: "Collus"  :+
 ::
 :: Takes 3 hoon expressions
-:: and returns a 3-tuple
+:: and returns a 3-tuple,
+:: or [a [b c]]
 ::
-:: Simple example:
+:: Example 1:
 :: take a number, ignore it,
 :: and just return a 3-tuple
 :: of 1 2 3

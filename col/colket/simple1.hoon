@@ -1,9 +1,11 @@
 ::
-:: "Colket" :^
+:: "Colket"  :^
 ::
-:: Returns a 4-tuple
+:: Takes 4 hoon expressions
+:: and returns a 4-tuple, or
+:: [a [b [c d]]]
 ::
-:: Simple example:
+:: Example 1:
 :: Take a number, return the number,
 :: the number squared, the number,
 :: cubed, and the number hypercubed

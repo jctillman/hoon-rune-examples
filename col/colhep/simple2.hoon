@@ -1,8 +1,11 @@
 
 ::
-:: "Colhep" :-
+:: "Colhep"  :-
 ::
-:: Simple example:
+:: Takes two hoon expressions
+:: and returns a cell of them.
+:: 
+:: Example 2:
 :: Take a number, return a cell of
 :: the number and number squared
 ::

@@ -1,11 +1,11 @@
 ::
-:: "colsig"  :~
+:: "Colsig"  :~
 ::
 :: Takes an arbitary number
 :: of examples, and returns a
 :: null-terminated list.
 ::
-:: Simple example:
+:: Example 1:
 :: Take a number and return a
 :: a null-terminated list from
 :: that number to that number + 5

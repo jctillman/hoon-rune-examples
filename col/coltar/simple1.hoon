@@ -1,11 +1,11 @@
 
 ::
-:: "coltar"  :*
+:: "Coltar"  :*
 ::
 :: Returns an n-tuple, which
 :: is not ~ terminated.
 ::
-:: Simple example:
+:: Example 1:
 :: Take a number and return a
 :: a 5-tuple from
 :: that number to that number + 4
