@@ -5,6 +5,7 @@
 ::  Using bartis just as a naked
 ::  generator can be a litle misleading.
 ::
+::  Example 2:
 ::  Here's bartis used within one.
 ::  just a naked generator
 ::

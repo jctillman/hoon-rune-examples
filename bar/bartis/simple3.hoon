@@ -2,6 +2,7 @@
 ::
 :: "Bartis" |=
 ::
+::  Example 3:
 ::  And here's bartis invoked
 ::  while explicitly using the 
 ::  $ arm which it has.

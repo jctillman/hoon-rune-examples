@@ -1,9 +1,10 @@
 ::
-:: "Barcen |%
+:: "Barcen"  |%
 ::
 :: Produce a core of arms with payload
 ::
-:: Follow example gives how you can
+:: Example 2:
+:: Example shows how you can
 :: use arms in it when it is the
 :: subject, and also how all arms
 :: in it are in scope for other arms

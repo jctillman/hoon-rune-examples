@@ -1,5 +1,5 @@
 ::
-:: "Bartar" |*
+:: "Bartar"  |*
 ::
 :: Making a naked generator with it.
 ::
@@ -9,4 +9,9 @@
 :: up to a generic noun.  This is because
 :: Bartar makes a wet generator, bartis makes
 :: a dry one.
+:: 
+:: Example 1:
+:: Identity function, which will return
+:: something of the same type.
+:: 
 |*  a=*  a

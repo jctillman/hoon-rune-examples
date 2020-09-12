@@ -1,5 +1,3 @@
-
-
 ::
 :: "Barhep"  |-
 ::
@@ -7,6 +5,7 @@
 :: a single arm, $, and immediately
 :: evaluates it.
 ::
+:: Example 2:
 :: In this example, this is used to loop
 :: from 0 to whatever the entry is.
 :: ~& is used to print this.

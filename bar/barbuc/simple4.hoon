@@ -12,15 +12,16 @@
 :: will be used when the mold builder
 :: is used.
 ::
-:: Example 1:
-:: Here we make a mold generator
-:: that is the same as the normal
-:: `lone` mold, which just takes
-:: a value and assign the face p
-:: to it
-:: 
+:: Example 4:
+:: A takes a mold, and returns a mold
+:: in the shape of [tape (mold)]
 ::
-|=  a=@
-=/  my-lone  |$  [item]  p=item
-=/  meg=(my-lone @)   a
-p.meg
+|=  a=@ud
+=<
+^-  (preceded-by-tape @ud)
+["tape" a]
+|%
+  ++  preceded-by-tape
+    |$  [item]
+    [tape item]
+--
