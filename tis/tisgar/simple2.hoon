@@ -2,7 +2,7 @@
 :: "Tisgar"  =>
 ::
 :: Takes two children, returns
-:: value of seocnd with first
+:: value of second with first
 :: as subject
 |=  a=@ud
 =>

@@ -9,9 +9,11 @@
 :: for a list is an empty list,
 :: and so on.
 ::
-:: Following returns the same
-:: value as was entered.
-::
-|=  a=@ud
-=|  zerod=@ud
-(add a zerod)
+|=  to=@ud
+=|  zero=@ud
+=|  pat=@p
+:*
+  zero
+  pat
+  to
+==

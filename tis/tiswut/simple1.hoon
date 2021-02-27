@@ -3,7 +3,9 @@
 ::
 :: Replaces value in face
 :: with one of third or
-:: fourth values
+:: fourth values, depending
+:: on the truth of the second.
+::
 |=  sum-num=@ud
 =/  num  10
 =?    sum-num
