@@ -10,7 +10,7 @@
 :: A naked generator that
 :: takes a list of @uds, and
 :: returns a cell of
-:: [original-list sum]
+:: [sum original-list]
 ::
 |=  uds=(list @ud)
 :_  uds
