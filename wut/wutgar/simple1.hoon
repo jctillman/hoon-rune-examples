@@ -3,7 +3,7 @@
 ::
 :: Simple example:
 :: The following fails if not given
-:: an odd number, returns the divisor
+:: an even number, returns the divisor
 :: otherwise
 
 |=  a=@ud

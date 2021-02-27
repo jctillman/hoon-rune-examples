@@ -2,7 +2,9 @@
 ::
 :: "wuthep"  ?-
 ::
-
+:: Wuthep is basically a switch
+::
+::
 |=  a=?(%1 %2 %3)
 ^-  tape
 ?-  a

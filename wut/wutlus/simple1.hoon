@@ -2,6 +2,9 @@
 ::
 :: "wutlus"  ?+
 ::
+:: Wutlus is a switch
+:: with a default, essentially.
+::
 
 |=  a=?(%1 %2 %3 %4 %5)
 ^-  tape
